@@ -1,7 +1,7 @@
 // src/App.js
 
 import React from 'react';
-import './App.css'; // Your professional dark-theme CSS
+import './App.css'; 
 import { personalData } from './data';
 
 // Component Imports
@@ -12,7 +12,6 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact'; 
-// NOTE: Make sure you create the folders: 'src/components/' 
 
 const App = () => {
     return (
@@ -24,7 +23,6 @@ const App = () => {
                     name={personalData.name} 
                     title={personalData.title} 
                     summary={personalData.summary}
-                    social={personalData.social}
                 />
                 
                 <Skills skills={personalData.skills} /> 
