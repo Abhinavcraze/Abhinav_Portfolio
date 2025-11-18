@@ -206,37 +206,59 @@ nav a:hover::after {
 }
 
 /* === PROJECTS SECTION STYLES === */
-.projects {
-    background-color: var(--primary-bg);
-}
-
 .project-card {
     background: var(--secondary-bg);
-    padding: 30px;
+    padding: 30px; 
     margin-bottom: 30px;
     border-radius: 10px;
     border: var(--card-border);
     transition: all 0.4s ease;
+    
+    position: relative; 
+    overflow: hidden; 
 }
 
-.project-card:hover {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 20px var(--accent-glow);
-    transform: translateY(-5px);
+.project-image-wrapper {
+    position: absolute;
+    top: 30px; 
+    right: 30px; 
+    width: 100px; 
+    height: 100px; 
+    
+    overflow: hidden; 
+    border-radius: 5px;
+    border: 2px solid var(--primary-color);
+    z-index: 10;
+    margin: 0; 
+}
+
+.project-screenshot {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; 
+    transition: transform 0.5s ease;
 }
 
 .project-card h3 {
     color: var(--primary-color);
     margin-bottom: 10px;
     font-size: 1.5em;
+    padding-right: 140px; 
 }
 
-.project-card ul {
-    list-style-type: '⚡'; /* Custom bullet point */
-    color: #b0b0b0;
-    padding-left: 20px;
-    margin: 15px 0;
+.tech-icon-list {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-right: 140px; 
 }
+
+.project-card:hover .project-screenshot {
+    transform: scale(1.05); 
+}
+
+
 
 .project-card li {
     margin-bottom: 8px;
@@ -263,7 +285,7 @@ nav a:hover::after {
 
 .project-link:hover {
     color: #cc13a4; 
-}
+} */
 
 
 /* === SKILLS SECTION STYLES === */
@@ -584,3 +606,5 @@ footer {
         gap: 15px;
     }
 }
+
+

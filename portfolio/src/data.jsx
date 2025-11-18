@@ -28,6 +28,7 @@ export const personalData = {
         {
             title: "School Attendance Management System",
             stack: "HTML, CSS, Vanilla JavaScript, Indexed DB",
+            image: "/attendance.jpg",
             description: [
                 "Engineered a dynamic administrative web application to manage student master records and daily attendance.",
                 "Implemented client-side data persistence using Indexed DB for secure, local storage of records, ensuring data integrity.",
@@ -39,6 +40,7 @@ export const personalData = {
         {
             title: "Hotel Management System",
             stack: "HTML, CSS, Vanilla JavaScript, Indexed DB",
+            image: "/hotel.jpg",
             description: [
                 "Expanded the front-end structure for a multi-cuisine restaurant, focusing on dynamic layouts and responsiveness.",
                 "Enforced client-side data persistence for a food order form using IndexedDB to store detailed customer order information locally.",
@@ -49,6 +51,7 @@ export const personalData = {
         {
             title: "Interactive Tic Tac Toe Game",
             stack: "React.js",
+            image: "/tictac.jpg",
             description: [
                 "Improved a classic game using the React.js framework to create a single-page, interactive user experience.",
                 "Utilized functional components and managed complex game state (player turn, winner) within the core component logic.",
