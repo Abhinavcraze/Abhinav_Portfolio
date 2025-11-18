@@ -3,7 +3,7 @@
 export const personalData = {
     // --- Personal Info ---
     name: "ABHINAV BASKARAN",
-    title: "Software Engineer | React & JavaScript Specialist",
+    title: "Software Engineer | React & JavaScript Developer",
     summary: "Enthusiastic and detail-oriented Computer Science graduate with 8.22 CGPA. Possessing strong proficiency in JavaScript and React, with solid knowledge of core backend technologies like Java and SQL. Dedicated to building efficient, user-friendly solutions and eager to contribute to a collaborative software development environment with a focus on problem-solving.",
     
     // --- Contact and Social ---
