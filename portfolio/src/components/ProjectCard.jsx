@@ -21,7 +21,6 @@ const ProjectCard = ({ project }) => {
 
     return (
         <div className="project-card">
-            {/* 🎯 ADD IMAGE RENDERING HERE */}
             {project.image && (
                 <div className="project-image-wrapper">
                     <img 
