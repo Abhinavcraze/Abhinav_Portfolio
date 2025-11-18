@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const placeholderImage = "./Abhinav.jpeg"; 
 
-const About = ({ name, title, summary }) => {
+const About = ({ name, title, summary, social }) => {
     return (
         <section id="About" className="section About">
             <div className="container About-container">
@@ -13,7 +13,14 @@ const About = ({ name, title, summary }) => {
                     <h2>{name}</h2>
                     <p className="role">{title}</p>
                     <p className="summary-text" dangerouslySetInnerHTML={{ __html: summary }} />
-                    
+                    <div className="social-links">
+                        <a href={social.linkedin} target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn />
+                        </a>
+                        <a href={social.github} target="_blank" rel="noopener noreferrer">
+                            <FaGithub />
+                        </a>
+                    </div>
                 </div>
                 <div className="About-image">
                     {/* Replace the placeholder URL with the actual link to your professional image */}

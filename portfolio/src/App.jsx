@@ -23,6 +23,7 @@ const App = () => {
                     name={personalData.name} 
                     title={personalData.title} 
                     summary={personalData.summary}
+                    social={personalData.social}
                 />
                 
                 <Skills skills={personalData.skills} /> 
